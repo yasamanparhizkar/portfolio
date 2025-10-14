@@ -1,8 +1,0 @@
-# virtual env
-.venv/
-
-# node js modules
-node_modules/
-
-# angular cache
-.angular/

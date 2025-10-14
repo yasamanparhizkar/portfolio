@@ -17,7 +17,7 @@
 
 <div align="center">
 	<a href="https://github.com/JayantGoel001/JayantGoel001.github.io">
-		<img src="src/screenshots/icon.png" alt="Logo" width="80" height="80"/>
+		<img src="screenshots/icon.png" alt="Logo" width="80" height="80"/>
 	</a>
 	<h3 align="center">Jayant Goel (JayantGoel001)'s Personal Portfolio</h3>
 	<p align="center">
@@ -49,7 +49,7 @@
 
 <p align="center">
   <a href="https://JayantGoel001.github.io/">
-    <img src="src/screenshots/screenshot.gif" alt="landing page"/>
+    <img src="screenshots/screenshot.gif" alt="landing page"/>
   </a>
 </p>
 
@@ -78,7 +78,7 @@
 
 [Black Ops One](https://fonts.google.com/specimen/Black+Ops+One) - Text Style
 
-<img alt="Font Example Screenshot" src="src/screenshots/font.png">
+<img alt="Font Example Screenshot" src="screenshots/font.png">
 
 ### Color Scheme
 
@@ -92,7 +92,7 @@
 - **Cultured** - Light Text Color & Light Background Color
 
 <a href="https://coolors.co/242a35-ff9800-212529-6c757d-ffffff-f8f9fa-ecd9bc">
-  <img alt="Color Palette Screenshot" src="src/screenshots/color-main.png"/>
+  <img alt="Color Palette Screenshot" src="screenshots/color-main.png"/>
 </a>
 
 <br/>
@@ -107,14 +107,14 @@
 - **Dark Jungle Green** - 404 Text Color
 
 <a href="https://coolors.co/090909-121212-ffff00-03a9f4-011718">
-  <img alt="Color Palette Screenshot" src="src/screenshots/color-loader-404.png"/>
+  <img alt="Color Palette Screenshot" src="screenshots/color-loader-404.png"/>
 </a>
 
 ### Icon
 
-This is the Favicon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
+This is the icon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
-<img alt="Me Icon" src="src/screenshots/icon.png" width="192"/>
+<img alt="Me Icon" src="screenshots/icon.png" width="192">
 
 Insert the following code in the `<head>` section of your pages to support favicons on all browsers and platforms.
 
@@ -137,7 +137,7 @@ Results :- [100%](https://realfavicongenerator.net/favicon_checker?protocol=http
 
 These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
-<img alt="Font Awesome Icon" src="src/screenshots/font-awesome-icon.png"/>
+<img alt="Font Awesome Icon" src="screenshots/font-awesome-icon.png">
 
 
 ## Built With :package:
@@ -156,10 +156,9 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💜 [SmartMockups](https://smartmockups.com/) for adding mockups/desktop background to screenshot
 - 💙 [SVG Backgrounds](https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/#scattered-forcefields) for adding background on about section
 
-
 ## How to run locally? :dart:
 
-  Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/) installed.
+Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/) installed.
 
   ```bash
   node --version
@@ -167,21 +166,21 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
   ```
 
 - Clone the repository :
-    - With HTTPS:
-      ```bash
-      git clone https://github.com/JayantGoel001/JayantGoel001.github.io.git
-      ```
-    - With SSH:
-      ```bash
-      git@github.com:JayantGoel001/JayantGoel001.github.io.git
-      ```
-      
+	- With HTTPS:
+	  ```bash
+	  git clone https://github.com/JayantGoel001/JayantGoel001.github.io.git
+	  ```
+	- With SSH:
+	  ```bash
+	  git@github.com:JayantGoel001/JayantGoel001.github.io.git
+	  ```
+
 - Navigate to working Directory and **main** branch
 
-	```bash
-	cd JayantGoel001.github.io
-	git switch main
-	```
+  ```bash
+  cd JayantGoel001.github.io
+  git switch main
+  ```
 
 - Install the dependencies:
 
@@ -196,21 +195,21 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
   ```bash
   ng serve
   ```
-    - Runs the app in the `development` mode.
-    - Open [http://localhost:4200/](http://localhost:4200/) to view it in the Default Browser.
-    - The page will reload if you make edits.
-    - You will also see any lint errors in the console.
+	- Runs the app in the `development` mode.
+	- Open [http://localhost:4200/](http://localhost:4200/) to view it in the Default Browser.
+	- The page will reload if you make edits.
+	- You will also see any lint errors in the console.
 
 
 - Deploy code to GitHub Pages (gh-pages):
-  
+
   ```bash
   ng deploy --base-href="/"
   ```
-    - Builds the application for production to the `build` folder & deploys application on `GitHub Pages`.
-    - It correctly bundles Angular in production mode and optimizes the build for the best performance.
-    - The build is minified and the filenames include the hashes.
-  
+	- Builds the application for production to the `build` folder & deploys application on `GitHub Pages`.
+	- It correctly bundles Angular in production mode and optimizes the build for the best performance.
+	- The build is minified and the filenames include the hashes.
+
 
 - Create a new branch:
 
@@ -234,27 +233,27 @@ Make sure you have [Docker](https://www.docker.com/products/docker-desktop/) ins
 docker --version
 ```
 
-  - To pull the [GitHub Container Registry](https://github.com/JayantGoel001/JayantGoel001.github.io/pkgs/container/jayantgoel001.github.io) Image:
-    ```bash
-    docker pull ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
-    ```
-  
-  - To pull the [Dockerhub](https://hub.docker.com/r/jayantgoel001/jayantgoel001.github.io) Image:
-    ```bash
-    docker pull jayantgoel001/jayantgoel001.github.io:latest
-    ```
-  
-  - To automatically pull and run the [GitHub Container Registry](https://github.com/JayantGoel001/JayantGoel001.github.io/pkgs/container/jayantgoel001.github.io) Image:
-    ```bash
-    docker run -d -p 4200:80 ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
-    ```
+- To pull the [GitHub Container Registry](https://github.com/JayantGoel001/JayantGoel001.github.io/pkgs/container/jayantgoel001.github.io) Image:
+  ```bash
+  docker pull ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+  ```
 
-  - To automatically pull and run the [Dockerhub](https://hub.docker.com/r/jayantgoel001/jayantgoel001.github.io) Image:
-    ```bash
-    docker run -d -p 4200:80 jayantgoel001/jayantgoel001.github.io:latest
-    ```
+- To pull the [Dockerhub](https://hub.docker.com/r/jayantgoel001/jayantgoel001.github.io) Image:
+  ```bash
+  docker pull jayantgoel001/jayantgoel001.github.io:latest
+  ```
 
-    Open [http://localhost:4200/](http://localhost:4200/) to view it in the Default Browser.
+- To automatically pull and run the [GitHub Container Registry](https://github.com/JayantGoel001/JayantGoel001.github.io/pkgs/container/jayantgoel001.github.io) Image:
+  ```bash
+  docker run -d -p 4200:80 ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+  ```
+
+- To automatically pull and run the [Dockerhub](https://hub.docker.com/r/jayantgoel001/jayantgoel001.github.io) Image:
+  ```bash
+  docker run -d -p 4200:80 jayantgoel001/jayantgoel001.github.io:latest
+  ```
+  
+  Open [http://localhost:4200/](http://localhost:4200/) to view it in the Default Browser.
 
 
 ## Sections :bookmark:
@@ -273,209 +272,143 @@ docker --version
 ## Folder Structure :open_file_folder:
 
 <pre>
-|   .all-contributorsrc
-|   .browserslistrc
-|   .dockerignore
-|   .editorconfig
-|   .gitignore
-|   angular.json
-|   Dockerfile
-|   karma.conf.js
-|   ngsw-config.json
-|   package-lock.json
-|   package.json
+
+|   372.XXXXXXXXXXXXXXXX.js
+|   3rdpartylicenses.txt
+|   404.XXXXXXXXXXXXXXXX.webp
+|   404.html
+|   478.XXXXXXXXXXXXXXXX.js
+|   about-bg.XXXXXXXXXXXXXXXX.svg
+|   apple-touch-icon.png
+|   bgimg.XXXXXXXXXXXXXXXX.webp
+|   browserconfig.xml
+|   fa-brands-400.XXXXXXXXXXXXXXXX.woff2
+|   fa-brands-400.XXXXXXXXXXXXXXXX.woff
+|   fa-brands-400.XXXXXXXXXXXXXXXX.eot
+|   fa-brands-400.XXXXXXXXXXXXXXXX.svg
+|   fa-brands-400.XXXXXXXXXXXXXXXX.ttf
+|   fa-regular-400.XXXXXXXXXXXXXXXX.ttf
+|   fa-regular-400.XXXXXXXXXXXXXXXX.woff2
+|   fa-regular-400.XXXXXXXXXXXXXXXX.eot
+|   fa-regular-400.XXXXXXXXXXXXXXXX.woff
+|   fa-regular-400.XXXXXXXXXXXXXXXX.svg
+|   fa-solid-900.XXXXXXXXXXXXXXXX.woff2
+|   fa-solid-900.XXXXXXXXXXXXXXXX.woff
+|   fa-solid-900.XXXXXXXXXXXXXXXX.ttf
+|   fa-solid-900.XXXXXXXXXXXXXXXX.svg
+|   fa-solid-900.XXXXXXXXXXXXXXXX.eot
+|   favicon-16x16.png
+|   favicon-32x32.png
+|   favicon.ico
+|   index.html
+|   LICENSE
+|   main.XXXXXXXXXXXXXXXX.js
+|   manifest.webmanifest
+|   ngsw-worker.js
+|   ngsw.json
+|   polyfills.XXXXXXXXXXXXXXXX.js
+|   quote-img.XXXXXXXXXXXXXXXX.webp
 |   README.md
-|   tsconfig.app.json
-|   tsconfig.json
-|   tsconfig.spec.json
+|   robots.txt
+|   runtime.XXXXXXXXXXXXXXXX.js
+|   safety-worker.js
+|   scripts.XXXXXXXXXXXXXXXX.js
+|   sitemap_index.xml
+|   styles.XXXXXXXXXXXXXXXX.css
+|   worker-basic.min.js
 |   
-+---.github
-|   +---lighthouse
-|   |       budget.json
-|   |       lighthouserc.json
++---assets
+|   |   data.min.js
+|   |   
+|   +---css
+|   |       animate.min.css
+|   |       font-awesome.min.css
 |   |       
-|   \---workflows
-|           publish-docker.yml
-|           pull-request-deploy-and-audit.yml
-|           fork_star.yml
-|           
-\---src
-    |   apple-touch-icon.png
-    |   browserconfig.xml
-    |   favicon-16x16.png
-    |   favicon-32x32.png
-    |   favicon.ico
-    |   index.html
-    |   LICENSE
-    |   main.ts
-    |   manifest.webmanifest
-    |   polyfills.ts
-    |   README.md
-    |   robots.txt
-    |   sitemap_index.xml
-    |   styles.min.css
-    |   
-    +---app
-    |   |   app-routing.module.ts
-    |   |   app.component.css
-    |   |   app.component.html
-    |   |   app.component.ts
-    |   |   app.module.ts
-    |   |   loadExternalResource.ts
-    |   |   
-    |   +---about
-    |   |       about.component.css
-    |   |       about.component.html
-    |   |       about.component.ts
-    |   |       
-    |   +---achievement
-    |   |       achievement.component.css
-    |   |       achievement.component.html
-    |   |       achievement.component.ts
-    |   |       
-    |   +---application
-    |   |       application.component.css
-    |   |       application.component.html
-    |   |       application.component.ts
-    |   |       application.module.ts
-    |   |       
-    |   +---contact
-    |   |       contact.component.css
-    |   |       contact.component.html
-    |   |       contact.component.ts
-    |   |       
-    |   +---footer
-    |   |       footer.component.css
-    |   |       footer.component.html
-    |   |       footer.component.ts
-    |   |       
-    |   +---home
-    |   |       home.component.css
-    |   |       home.component.html
-    |   |       home.component.ts
-    |   |       
-    |   +---navbar
-    |   |       navbar.component.css
-    |   |       navbar.component.html
-    |   |       navbar.component.ts
-    |   |       
-    |   +---page-not-found
-    |   |       page-not-found.component.css
-    |   |       page-not-found.component.html
-    |   |       page-not-found.component.ts
-    |   |       page-not-found.module.ts
-    |   |       
-    |   +---portfolio
-    |   |       portfolio.component.css
-    |   |       portfolio.component.html
-    |   |       portfolio.component.ts
-    |   |       
-    |   +---quote
-    |   |       quote.component.css
-    |   |       quote.component.html
-    |   |       quote.component.ts
-    |   |       
-    |   +---social
-    |   |       social.component.css
-    |   |       social.component.html
-    |   |       social.component.ts
-    |   |       
-    |   \---training
-    |           training.component.css
-    |           training.component.html
-    |           training.component.ts
-    |           
-    +---assets
-    |   |   data.min.js
-    |   |   
-    |   +---css
-    |   |       animate.min.css
-    |   |       font-awesome.min.css
-    |   |       
-    |   +---fonts
-    |   |       BlackOpsOne.eot
-    |   |       BlackOpsOne.svg
-    |   |       BlackOpsOne.ttf
-    |   |       BlackOpsOne.woff
-    |   |       BlackOpsOne.woff2
-    |   |       fa-brands-400.eot
-    |   |       fa-brands-400.svg
-    |   |       fa-brands-400.ttf
-    |   |       fa-brands-400.woff
-    |   |       fa-brands-400.woff2
-    |   |       fa-regular-400.eot
-    |   |       fa-regular-400.svg
-    |   |       fa-regular-400.ttf
-    |   |       fa-regular-400.woff
-    |   |       fa-regular-400.woff2
-    |   |       fa-solid-900.eot
-    |   |       fa-solid-900.svg
-    |   |       fa-solid-900.ttf
-    |   |       fa-solid-900.woff
-    |   |       fa-solid-900.woff2
-    |   |       
-    |   +---images
-    |   |   |   404.webp
-    |   |   |   about-bg.svg
-    |   |   |   background-image.jpg
-    |   |   |   bgimg.webp
-    |   |   |   footer-cloud.svg
-    |   |   |   frame-desktop.webp
-    |   |   |   frame-mobile.webp
-    |   |   |   monkey.webp
-    |   |   |   moon-dark.svg
-    |   |   |   moon.svg
-    |   |   |   mstile-144x144.png
-    |   |   |   mstile-150x150.png
-    |   |   |   mstile-310x150.png
-    |   |   |   mstile-310x310.png
-    |   |   |   mstile-70x70.png
-    |   |   |   Profile-pic-144x144.png
-    |   |   |   Profile-pic-192x192.png
-    |   |   |   Profile-pic-384x384.png
-    |   |   |   Profile-pic-512x512.png
-    |   |   |   Profile-pic.webp
-    |   |   |   quote-img.webp
-    |   |   |   safari-pinned-tab.svg
-    |   |   |   
-    |   |   +---achievement
-    |   |   |       DataScience.webp
-    |   |   |       HackerRank.webp
-    |   |   |       Hacktoberfest.webp
-    |   |   |       
-    |   |   \---portfolio
-    |   |           A-Social-Media.webp
-    |   |           AI-Image-Caption-Bot.webp
-    |   |           AI-Music-Generation.webp
-    |   |           E-Commerce-Site.webp
-    |   |           School-Donation-Analysis.webp
-    |   |           URL-Shortner.webp
-    |   |           
-    |   \---js
-    |           particles.min.js
-    |           vanilla-tilt.min.js
-    |           wow.min.js
-    |                       
-    +---environments
-    |       environment.prod.ts
-    |       environment.ts
-    |       
-    \---screenshots
-            color-loader-404.png
-            color-main.png
-            font-awesome-icon.png
-            font.png
-            icon.png
-            PageSpeedInsight Desktop.png
-            PageSpeedInsight Mobile.png
-            screenshot.gif
+|   +---fonts
+|   |       BlackOpsOne.eot
+|   |       BlackOpsOne.svg
+|   |       BlackOpsOne.ttf
+|   |       BlackOpsOne.woff
+|   |       BlackOpsOne.woff2
+|   |       fa-brands-400.eot
+|   |       fa-brands-400.svg
+|   |       fa-brands-400.ttf
+|   |       fa-brands-400.woff
+|   |       fa-brands-400.woff2
+|   |       fa-regular-400.eot
+|   |       fa-regular-400.svg
+|   |       fa-regular-400.ttf
+|   |       fa-regular-400.woff
+|   |       fa-regular-400.woff2
+|   |       fa-solid-900.eot
+|   |       fa-solid-900.svg
+|   |       fa-solid-900.ttf
+|   |       fa-solid-900.woff
+|   |       fa-solid-900.woff2
+|   |       
+|   +---images
+|   |   |   404.webp
+|   |   |   about-bg.svg
+|   |   |   bgimg.webp
+|   |   |   footer-cloud.svg
+|   |   |   frame-desktop.webp
+|   |   |   frame-mobile.webp
+|   |   |   monkey.webp
+|   |   |   moon-dark.svg
+|   |   |   moon.svg
+|   |   |   mstile-144x144.png
+|   |   |   mstile-150x150.png
+|   |   |   mstile-310x150.png
+|   |   |   mstile-310x310.png
+|   |   |   mstile-70x70.png
+|   |   |   og-image.jpg
+|   |   |   Profile-pic-144x144.png
+|   |   |   Profile-pic-192x192.png
+|   |   |   Profile-pic-384x384.png
+|   |   |   Profile-pic-512x512.png
+|   |   |   Profile-pic.webp
+|   |   |   quote-img.webp
+|   |   |   safari-pinned-tab.svg
+|   |   |   
+|   |   +---achievement
+|   |   |       DataScience.webp
+|   |   |       HackerRank.webp
+|   |   |       Hacktoberfest.webp
+|   |   |       
+|   |   \---portfolio
+|   |           A-Social-Media.webp
+|   |           AI-Image-Caption-Bot.webp
+|   |           AI-Music-Generation.webp
+|   |           E-Commerce-Site.webp
+|   |           School-Donation-Analysis.webp
+|   |           URL-Shortner.webp
+|   |           
+|   \---js
+|           particles.min.js
+|           vanilla-tilt.min.js
+|           wow.min.js
+|
++---environments
+|       environment.prod.ts
+|       environment.ts       
+|   
+\---screenshots
+        color-loader-404.png
+        color-main.png
+        font-awesome-icon.png
+        font.png
+        icon.png
+        PageSpeedInsight Desktop.png
+        PageSpeedInsight Mobile.png
+        screenshot.gif
 </pre>
+
 
 
 ## Search engine optimization(SEO) :spider:
 
 Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.
-Add the below code snippet to `src/index.html` with your site info. This step is not mandatory.
+Add the below code snippet to `index.html` with your site info. This step is not mandatory.
 
 ```html
 <meta itemprop="name" content="--- YOUR TITLE ---">
@@ -537,11 +470,11 @@ PageSpeed Insights (PSI) reports on the performance of a page on both mobile and
 
 - **Desktop**
 
-	[![PageSpeed Insight Desktop](src/screenshots/PageSpeedInsight%20Desktop.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjayantgoel001.github.io%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
+  [![PageSpeed Insight Desktop](screenshots/PageSpeedInsight%20Desktop.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjayantgoel001.github.io%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
 
 - **Mobile**
 
-	[![PageSpeed Insight Mobile](src/screenshots/PageSpeedInsight%20Mobile.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjayantgoel001.github.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
+  [![PageSpeed Insight Mobile](screenshots/PageSpeedInsight%20Mobile.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjayantgoel001.github.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
 
 
 ## Creator / Maintainer :man_technologist:
@@ -577,7 +510,7 @@ Feel free to check the [Issues page](https://github.com/JayantGoel001/JayantGoel
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -586,14 +519,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://JayantGoel001.github.io"><img src="https://avatars.githubusercontent.com/u/54479676?v=4?s=100" width="100px;" alt="Jayant Goel"/><br /><sub><b>Jayant Goel</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Code">💻</a> <a href="#ideas-JayantGoel001" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Tests">⚠️</a> <a href="#maintenance-JayantGoel001" title="Maintenance">🚧</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Documentation">📖</a> <a href="#design-JayantGoel001" title="Design">🎨</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/pulls?q=is%3Apr+reviewed-by%3AJayantGoel001" title="Reviewed Pull Requests">👀</a> <a href="#content-JayantGoel001" title="Content">🖋</a> <a href="#a11y-JayantGoel001" title="Accessibility">️️️️♿️</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/anchal-p-908643b6/"><img src="https://avatars.githubusercontent.com/u/73632448?v=4?s=100" width="100px;" alt="Anchal Pandey"/><br /><sub><b>Anchal Pandey</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3Acode1511" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://emmadawson.dev"><img src="https://avatars.githubusercontent.com/u/57045550?v=4?s=100" width="100px;" alt="Emma Dawson"/><br /><sub><b>Emma Dawson</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3Aemmalearnscode" title="Bug reports">🐛</a> <a href="#ideas-emmalearnscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#a11y-emmalearnscode" title="Accessibility">️️️️♿️</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/NarpatAanjana"><img src="https://avatars.githubusercontent.com/u/86047565?v=4?s=100" width="100px;" alt="Narpat Aanjana"/><br /><sub><b>Narpat Aanjana</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3ANarpatAanjana" title="Bug reports">🐛</a></td>
-    </tr>
-  </tbody>
+  <tr>
+    <td align="center"><a href="http://JayantGoel001.github.io"><img src="https://avatars.githubusercontent.com/u/54479676?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jayant Goel</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Code">💻</a> <a href="#ideas-JayantGoel001" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Tests">⚠️</a> <a href="#maintenance-JayantGoel001" title="Maintenance">🚧</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Documentation">📖</a> <a href="#design-JayantGoel001" title="Design">🎨</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/pulls?q=is%3Apr+reviewed-by%3AJayantGoel001" title="Reviewed Pull Requests">👀</a> <a href="#content-JayantGoel001" title="Content">🖋</a> <a href="#a11y-JayantGoel001" title="Accessibility">️️️️♿️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/anchal-p-908643b6/"><img src="https://avatars.githubusercontent.com/u/73632448?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anchal Pandey</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3Acode1511" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://emmadawson.dev"><img src="https://avatars.githubusercontent.com/u/57045550?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Emma Dawson</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3Aemmalearnscode" title="Bug reports">🐛</a> <a href="#ideas-emmalearnscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#a11y-emmalearnscode" title="Accessibility">️️️️♿️</a></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/NarpatAanjana"><img src="https://avatars.githubusercontent.com/u/86047565?v=4?s=100" width="100px;" alt="Narpat Aanjana"/><br /><sub><b>Narpat Aanjana</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3ANarpatAanjana" title="Bug reports">🐛</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
