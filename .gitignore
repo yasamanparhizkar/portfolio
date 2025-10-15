@@ -1,11 +1,50 @@
 # virtual env
 .venv/
 
-# node js modules
-node_modules/
+# dependencies
+/node_modules
 
-# angular cache
-.angular/
+# compiled output
+/build
+/tmp
+/out-tsc
+# only exists if Bazel was run
+/bazel-out
 
-# build directory
-build/
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# system files
+.DS_Store
+Thumbs.db
+node_modules
+cmd
+.angular
+src/assets/model/model.py
