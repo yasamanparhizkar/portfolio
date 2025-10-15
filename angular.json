@@ -15,12 +15,12 @@
 			"prefix": "app",
 			"architect": {
 				"build": {
-					"builder": "@angular-devkit/build-angular:browser",
+					"builder": "@angular-devkit/build-angular:application",
 					"options": {
 						"outputPath": "build",
 						"index": "src/index.html",
-						"main": "src/main.ts",
-						"polyfills": "src/polyfills.ts",
+						"browser": "src/main.ts",
+						"polyfills": ["src/polyfills.ts"],
 						"tsConfig": "tsconfig.app.json",
 						"assets": [
 							"src/favicon.ico",
@@ -51,8 +51,7 @@
 							"src/assets/js/particles.min.js",
 							"src/assets/js/vanilla-tilt.min.js"
 						],
-						"serviceWorker": true,
-						"ngswConfigPath": "ngsw-config.json"
+						"serviceWorker": "ngsw-config.json"
 					},
 					"configurations": {
 						"production": {
