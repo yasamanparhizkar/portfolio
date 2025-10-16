@@ -191,47 +191,25 @@ const data = {
         training: [
             [{
                 class: "Left",
-                title: "Theatron",
-                subtitle: "Internship - Android Development",
-                date: "10 Feb, 2020 - 30 Sept, 2020",
-                description: "Theatron is an entertainment Android Application which I created using Kotlin with Firebase as Backend and Deployed It On Play Store.",
-                link: "1Ahg2Gzz8oLBs495N4PT9a1fszNBcJUB9"
+                title: "MICCAI",
+                subtitle: "Medical Data Extraction",
+                date: "23-27 September 2025",
+                description: "Open PMC extracts high quality multimodal data from medical scientific articles to train and evaluate LLMs.",
+                link: "https://arxiv.org/pdf/2503.14377?"
             }, {
                 class: "Down",
-                title: "Android Development",
-                subtitle: "Classroom Training - Coding Blocks",
-                date: "21 Aug, 2019 - 17 Dec, 2019",
-                description: "The training included the basics and practical application of Android Development which included a lot of projects on Integrating API's and Firebase in Kotlin.",
-                link: "1lSc9it--0LooJpp6A7riggSFZPVq2vn6"
+                title: "FM4LS at ICML",
+                subtitle: "Multimodal Contrastive Learning",
+                date: "19 July 2025",
+                description: "We benchmarked various contrastive learning algorithms for medical representation learning.",
+                link: "https://arxiv.org/pdf/2406.07450?"
             }, {
                 class: "Right",
-                title: "Talent Decrypt",
-                subtitle: "Internship - Data Science",
-                date: "12 Jan, 2021 - 1 Oct, 2021",
-                description: "In TalentDecrypt, We worked on candidate suspicious activity detection which included Face Detection & Recognition and Object Detection to detect any abnormal activity.",
-                link: "17-DFgOcSbG0xDdktRRiiSUSSK33WUFMe"
-            }],
-            [{
-                class: "Left",
-                title: "Complete Web Developer Master Course",
-                subtitle: "Online Training - Udemy",
-                date: "1 July 2020 - 25 Aug 2020",
-                description: "Complete Web Development course which focused on both Front and Back-end Development, starting with HTML, CSS, JavaScript to MEAN Stack Development.",
-                link: "12THg9_3-KtjSRe7pLfw27_pqwkDtSQMx"
-            }, {
-                class: "Up",
-                title: "Python Bootcamp",
-                subtitle: "Online Training - Udemy",
-                date: "15 Oct, 2020 - 27 Dec, 2020",
-                description: "Python bootcamp served as a window for me for the Advanced Python Developer, as it helped me to start applying my knowledge in more Advance and GUI Part.",
-                link: "1AdmAM40vQ_mfzz7pVUcUea2S38E6Epuz"
-            }, {
-                class: "Right",
-                title: "Data Science",
-                subtitle: "Classroom/Live Training - Coding Blocks",
-                date: "29 Dec, 2019 - 05 May, 2020",
-                description: "This course covered all the intuitions and theoretical aspects of Machine Learning and Data Science which included all the types of visualisation, analysis etc.",
-                link: "1lZmX1wmZLo8ksY6NsrFM9cNfL8HWdMBn"
+                title: "IEEE OJSP",
+                subtitle: "Neural Activity Prediction",
+                date: "1 January 2024",
+                description: "We develop a novel graph-based classification algorithm to predict retinal responses to a natural scene.",
+                link: "https://ieeexplore.ieee.org/document/10379097"
             }]
         ]
     },
