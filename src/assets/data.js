@@ -215,16 +215,20 @@ const data = {
     },
     Achievement: [{
         animationClass: "Left",
-        description: "6 ★ in Problem Solving with 3200+ points on HackerRank.",
-        image: "HackerRank"
+        description: "People's Choice Award of 2025 Dragons' Den at RBC Global Security.",
+        image: "dragon"
     }, {
         animationClass: "Up",
-        description: "Won 𝗛𝗮𝗰𝗸𝘁𝗼𝗯𝗲𝗿𝗳𝗲𝘀𝘁 𝟮𝟬𝟮𝟬 & 𝟮𝟬𝟮𝟭 T-shirt by creating more than 𝟮𝟬 Pull Request.",
-        image: "Hacktoberfest"
+        description: "First Place at AI Buildathon held by Inception Studio.",
+        image: "agenticai"
+    }, {
+        animationClass: "Up",
+        description: "Distinguished Project at University of Tehran's ECE Project Day.",
+        image: "quantum-computing"
     }, {
         animationClass: "Right",
-        description: "Secured 𝟭𝘀𝘁 Position Among 𝟲𝟲 𝗽𝗲𝗲𝗿𝘀 in Data Science Course.",
-        image: "DataScience"
+        description: "Bronze medal of Iran's National Physics Olympiad.",
+        image: "bronze-medal"
     }],
     Contact: [{
         animationClass: "Left",
