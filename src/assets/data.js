@@ -236,18 +236,7 @@ const data = {
         icon: "fas fa-street-view",
         links: [{
             type: "https://maps.google.com/?q=",
-            title: "Ghaziabad, Uttar Pradesh, India"
-        }]
-    }, {
-        animationClass: "Up",
-        title: "Contact Number",
-        icon: "fas fa-mobile-alt",
-        links: [{
-            type: "tel:",
-            title: "+91-8377838183"
-        }, {
-            type: "tel:",
-            title: "+91-8076331756"
+            title: "Toronto, Ontario, Canada"
         }]
     }, {
         animationClass: "Right",
@@ -255,57 +244,31 @@ const data = {
         icon: "far fa-envelope",
         links: [{
             type: "mailto:",
-            title: "jgoel92@gmail.com"
+            title: "yasaman.parhizkar@gmail.com"
         }]
     }],
     Social: [
         [{
-            link: "https://github.com/JayantGoel001",
+            link: "https://github.com/yasamanparhizkar",
             class: "fab fa-github",
             name: "GitHub",
             placement: "left"
         }, {
-            link: "https://www.linkedin.com/in/JayantGoel001",
+            link: "https://www.linkedin.com/in/yasamanparhizkar",
             class: "fab fa-linkedin-in",
             name: "LinkedIn",
             placement: "top"
         }, {
-            link: "https://gist.github.com/JayantGoel001",
+            link: "https://gist.github.com/yasamanparhizkar",
             class: "fas fa-laptop-code",
             name: "Gist",
             placement: "top"
-        }, {
-            link: "https://www.hackerrank.com/JayantGoel001",
-            class: "fab fa-hackerrank",
-            name: "HackerRank",
-            placement: "right"
-        }],
-        [{
-            link: "https://www.instagram.com/jayantgoel001",
-            class: "fab fa-instagram",
-            name: "Instagram",
-            placement: "left"
-        }, {
-            link: "https://www.facebook.com/jayantgoel001",
-            class: "fab fa-facebook",
-            name: "Facebook",
-            placement: "bottom"
-        }, {
-            link: "https://wa.me/918377838183",
-            class: "fab fa-whatsapp",
-            name: "WhatsApp",
-            placement: "bottom"
-        }, {
-            link: "https://twitter.com/JayantGoel001",
-            class: "fab fa-twitter",
-            name: "Twitter",
-            placement: "right"
         }]
     ],
     Footer: {
         dev: {
             name: "dev",
-            link: "https://dev.to/jayantgoel001",
+            link: "https://www.linkedin.com/in/yasamanparhizkar",
             image: "monkey"
         },
         citation: {
