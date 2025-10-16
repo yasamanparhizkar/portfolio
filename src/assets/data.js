@@ -122,38 +122,44 @@ const data = {
     Portfolio: [{
         animationClass: "rotateInDownLeft",
         delay: "0.5s",
-        project: "AI-Image-Caption-Bot",
-        description: "AI Image Caption Bot is a special project which uses almost every topic of data science and Machine Learning. In this project, we can upload image and bot will predict the caption of that image.",
+        link: "https://github.com/VectorInstitute/pmc-data-extraction",
+        project: "pmc-data-extraction",
+        description: "Open source tool to create high quality image-text data for health applications, extracted from medical scientific articles.",
         placement: "top"
     }, {
         animationClass: "slideInUp",
         delay: "0",
-        project: "AI-Music-Generation",
-        description: "In this project we were able to generates melodious sound of piano by mixing different nodes and chords By training on LSTM Model.",
+        link: "https://github.com/VectorInstitute/mmlearn",
+        project: "mmlearn",
+        description: "Open source platform to train and evaluate multimodal LLMs, supporting various training and evaluation algorithms.",
         placement: "top"
     }, {
         animationClass: "rotateInDownRight",
         delay: "0.5s",
-        project: "School-Donation-Analysis",
-        description: "Using School Donation Datasets,I was able to Analysed and Visualized using numPy and pandas & Plotly, Cufflinks and Matplotlib respectively.",
+        link: "https://github.com/VectorInstitute/diffusion-models",
+        project: "diffusion-models",
+        description: "A collection of diffusion models for tabular and time series data. Each method is implemented and explained like a tutorial.",
         placement: "top"
     }, {
         animationClass: "rotateInUpLeft",
         delay: "0.5s",
-        project: "A-Social-Media",
-        description: " A Social Media Is an application developed with MEAN Stack Development. In this application, you can make friends ,besties and enemy, allow user to share their thoughts as post and can chat through one-to-one messages.",
+        link: "https://www.yorku.ca/yfile/2024/04/10/york-research-examines-complexities-of-sight/",
+        project: "simgraph",
+        description: "Predicting neuron responses in the retina using our own interpretable graph-based classifier.",
         placement: "bottom"
     }, {
         animationClass: "slideInDown",
         delay: "0",
-        project: "E-Commerce-Site",
-        description: "Created An E-Commerce Site using Reactjs, REDUX, HTML, CSS and JavaScript where a user can buy product, add it to cart and added PayPal Button to make payment.",
+        link: "https://github.com/yasamanparhizkar/pocketpr",
+        project: "pocket-pr",
+        description: "Agentic AI which asks the user relevant questions about their day and posts suitable messages on LinkedIn.",
         placement: "bottom"
     }, {
         animationClass: "rotateInUpRight",
         delay: "0.5s",
-        project: "URL-Shortner",
-        description: "Created An Web Application which help us to shorten the URL by using Firebase Firestore as Database and Bootstrap for Front end.",
+        link: "https://github.com/yasamanparhizkar/QVNE",
+        project: "qvne",
+        description: "Solving an NP-Hard problem using quantum computing optimization implemented with IBM's Qiskit API.",
         placement: "bottom"
     }],
     Training: {
