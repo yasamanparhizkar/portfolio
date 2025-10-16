@@ -53,7 +53,7 @@
 						],
 						"serviceWorker": "ngsw-config.json"
 					},
-					"configurations": {
+                    "configurations": {
 						"production": {
 							"budgets": [
 								{
@@ -66,14 +66,16 @@
 									"maximumWarning": "7kb",
 									"maximumError": "10kb"
 								}
-							],
+                            ],
 							"fileReplacements": [
 								{
 									"replace": "src/environments/environment.ts",
 									"with": "src/environments/environment.prod.ts"
 								}
-							],
-							"outputHashing": "all"
+                            ],
+                            "outputHashing": "all",
+                            "baseHref": "/portfolio/",
+                            "deployUrl": "/portfolio/"
 						},
 						"development": {
 							"optimization": false,
@@ -124,7 +126,7 @@
 					"builder": "angular-cli-ghpages:deploy",
 					"options": {
 						"branch": "gh-pages",
-						"directory": "build"
+                        "directory": "build/browser"
 					}
 				}
 			}
