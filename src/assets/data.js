@@ -5,7 +5,7 @@ const identity = {
 const data = {
     NavBar: {
         ...identity,
-        links: ["Home", "About", "Portfolio", "Training", "Achievement", "Contact"]
+        links: ["Home", "About", "Portfolio", "Publication", "Achievement", "Contact"]
     },
     Home: {
         introduction: "I am a data scientist who looks for solutions to complex problems using any mathematical method I know, including graph analysis, statistics, deep learning, and optimization.",
