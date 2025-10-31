@@ -45,7 +45,7 @@
             "name": "404 Page",
             "short_name": "404",
             "description": "Page Not Found",
-            "url": "/404",
+            "url": "/portfolio/#/404",
             "icons": [
                 {
                     "src": "/assets/images/Profile-pic-192x192.png",
@@ -54,9 +54,9 @@
             ]
         }
     ],
-    "start_url": "/",
-    "id": "/",
-    "scope": "/",
+    "start_url": "/portfolio/",
+    "id": "/portfolio/",
+    "scope": "/portfolio/",
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#242a35",
