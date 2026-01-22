@@ -229,6 +229,10 @@ const data = {
         animationClass: "Right",
         description: "Bronze medal of Iran's National Physics Olympiad.",
         image: "bronze-medal"
+    }, {
+        animationClass: "Right",
+        description: "Performance award of RBC Global Security in Quarter 1 of 2026.",
+        image: "performance"
     }],
     Contact: [{
         animationClass: "Left",
