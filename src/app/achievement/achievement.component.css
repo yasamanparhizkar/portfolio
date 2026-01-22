@@ -19,8 +19,8 @@
     border-radius: 20px;
     transform-style: preserve-3d;
     overflow: hidden;
-    flex: 0 0 calc(25% - 32px);
-    max-width: calc(25% - 32px)
+    flex: 0 0 calc(33.333% - 32px);
+    max-width: calc(33.333% - 32px)
  }
 
 .container-ach .box .description {
