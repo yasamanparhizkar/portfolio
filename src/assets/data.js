@@ -9,7 +9,7 @@ const data = {
     },
     Home: {
         introduction: "I am a data scientist who looks for solutions to complex problems using any mathematical method I know, including graph analysis, statistics, deep learning, and optimization.",
-        resumeLink: "1L9akLXKK4ZFQ3ZSXOvzC-rEnbm9poTC3",
+        resumeLink: "14k13-ZrbD3jNzJfMkai4YXA0-fXWIyZM",
         typedElement: ["Yasaman Parhizkar", "Data Scientist", "Machine Learning Engineer", "Deep Learning Engineer", "Graph Analyst", "Open Source Enthusiast"]
     },
     About: {
