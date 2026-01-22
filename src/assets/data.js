@@ -34,32 +34,35 @@ const data = {
         },
         skills: [
             [{
-                skill: "Machine Learning",
+                skill: "Graph Neural Networks",
                 progress: "100"
             }, {
-                skill: "Deep Learning",
+                skill: "Gen AI",
                 progress: "100"
             }, {
-                skill: "Data ETL",
+                skill: "Agentic AI",
                 progress: "100"
             }, {
-                skill: "Graph Analysis",
+                skill: "LLM",
                 progress: "100"
             }, {
-                skill: "Statistics",
+                skill: "Big Data Processing (Pyspark, Hadoop)",
                 progress: "100"
             }],
             [{
-                skill: "Python",
+                skill: "Statistics",
                 progress: "100"
             }, {
                 skill: "Pytorch",
                 progress: "100"
             }, {
-                skill: "Git/GitHub",
+                skill: "Model Deployment and Monitoring",
                 progress: "100"
             }, {
-                skill: "Clean Code Standards",
+                skill: "CI/CD and Agile Development",
+                progress: "100"
+            }, {
+                skill: "Industry-grade Production Coding Standards",
                 progress: "100"
             }]
         ],
